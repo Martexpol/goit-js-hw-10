@@ -37,7 +37,6 @@ breedSelect.addEventListener("change", (ev) => {
       catBreed.innerText = `${catData.breeds[0].name}`;
       catDescription.innerText = `${catData.breeds[0].description}`;
       catTemperament.innerHTML = `<span class="temperament-span">Temperament: </span>${catData.breeds[0].temperament}`;
-
       removeLoader();
       }
     })
